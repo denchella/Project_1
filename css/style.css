@@ -1,0 +1,128 @@
+*{
+	box-sizing: border-box;
+	/* This makes the widths of elements more consistent
+		Full details here https://css-tricks.com/box-sizing/ */
+}
+
+body{
+	margin: 0px; /* Often browsers have a 5px margin by deafult*/
+	font-family: sans-serif;
+}
+
+section{
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+header{
+	background-color: white;
+	color: black;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+nav {
+position: fixed;
+top: 0;
+width: 100%;
+height: 60px;
+background-color: black;
+text-align: center;
+}
+
+#Home {
+	float: left;
+}
+#Title {
+	color: white;
+	background-color: black;
+	font-family: rift, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+	font-size: 35px;
+}
+
+nav a, nav h3 {
+	margin: 0px;
+	line-height: 60px;
+	margin-left: 5em;
+	margin-right: 1em;
+	text-decoration: none;
+	color: white;
+	font-family: rift, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav a:hover {
+	text-decoration: underline; /* Hover styles to let people know they can click it */
+}
+
+.g-row{
+	width: 100%;
+	overflow: hidden;
+}
+.main-row {
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-family: rift, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+	font-size: 50px;
+}
+
+.g-row img{
+	width: 100%; /*This makes all images in grids to be the size of their cell */
+}
+
+
+.g-30{
+	width: 30%;
+	float: left;
+}
+
+.g-70{
+	width: 70%;
+	float: left;
+}
+
+.padded{
+	padding: 20px; /* I add this to cells to add a little padding*/
+}
+
+p {
+	font-family: freight-sans-compressed-pro, sans-serif;
+font-weight: 300;
+font-style: normal;
+font-size: 23px;
+}
+
+h1 {
+	font-family: rift, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 25px;
+	color: white;
+	background-color: black;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+h3{
+	font-family: rift, sans-serif;
+	font-weight: 400;
+	font-style: bold;
+}
+
+a {
+  color: black;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
